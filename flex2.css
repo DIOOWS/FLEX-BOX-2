@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER */
+
+.container{
+    background-color: rgb(243, 204, 146);
+    flex-basis: 0 1 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+
+
+    /* indiferente*/
+
+    padding: 210px;
+    height: 559px;
+    
+
+
+}
+
+/* CABEÇALHO */
+
+.header{
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+
+
+/* ITENS */
+
+.item1{
+    background-color: darkgray;
+    border: 2px solid green;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RODA PÉ */
+
+.footer{
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
+}
